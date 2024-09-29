@@ -15,29 +15,30 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                  <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
-     <div class="logo">Sharon Koech</div>
-     <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-         <span></span>
-         <span></span>
-         <span></span>
+        <div class="logo">Sharon Koech</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
-        <div class="menu-links">
-            <li><a href= "#about" onclick="toggleMenu()">About </a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience </a></li>
-            <li><a href="#certificates" onclick="toggleMenu()">Certificates </a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects </a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact </a></li>
-         </div>
-     </div>
     </nav>
+    
     <section id="profile">
         <div class="section__pic-container">
             <img src="" alt="Sharon Koech profile picture"/>
@@ -46,457 +47,246 @@
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Sharon Koech</h1>
             <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-            <button 
-            class="btn btn-color-2" 
-            onclick="window.open('./assets/resume.pdf')"
-            >
-            Download Resume
-        </button>
-        <button
-         class="btn btn-color-1" 
-         onclick="location.href='./#contact'"
-         >
-           Contact Info
-        </button>
-      </div>
-      <div id="socials-container">
-        <img
-         src="./assets/linkedin.png" 
-         alt="My Linkedin Profile"
-        class="icon" 
-        onclick="location.href='https://linkedin.com/in/sharon-koech-bab537218'" 
-        />
-        <img
-         src="./assets/github.png" 
-         alt="My Github Profile"
-        class="icon" 
-        onclick="location.href='https://github.com/Sharon1347'" 
-        />
-      </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/in/sharon-koech-bab537218'" />
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/Sharon1347'" />
+            </div>
         </div>
-         </div>
-        </section>
-    
-        <section id="about">
-          <p class="section__text__p1">Get To Know More</p>
-          <h1 class="title">About Me</h1>
-          <div class="section-container">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" />
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
             <div class="section__pic-container">
-              <img
-               src="./assets/about-pic.jpg" 
-              alt="Profile picture" 
-              class="about-pic"
-              />
+                <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic"/>
             </div>
 
             <div class="about-details-container">
-              <div class="about-containers">
-                <div class="details-container" >
-                  <img 
-                  src="./assets/experience.png" 
-                  alt="Experience icon"
-                  class="icon"
-                  />
-                  <h3>Experience</h3>
-                  <p>2+years <br/>Frontend Development</p>
-                </div> 
-                <div class="details-container">
-                  <img
-                  src="./assets/education.png"
-                  alt="Education icon"
-                  class="icon"
-                  />
-                  <h3>Education</h3>
-                  <p>B.sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-                </div>
-              </div>
-              <div class="text-container">
-                <p>
-As a cybersecurity professional, I excel in rapidly mastering new technologies and processes, driven by my commitment to integrity, confidentiality, and continuous learning. With a passion for protecting sensitive data and ethical hacking, I proactively identify and mitigate risks, aligning my skills with the security goals of organizations to ensure robust defenses and operational trust.
-
-                </p>
-              </div>
-            </div>
-          </div>
-          <img 
-          src="./assets/arrow.png" 
-          alt="Arrow icon" 
-          class="icon arrow"
-          onclick="location.href='./#experience'"
-          />
-        </section>
-    
-        <section id="experience">
-          <p class="section__text__p1">Explore My</p>
-          <h1 class="title">Experience</h1>
-          <div class="experience-details-container">
-            <div class="about-containers">
-              <div class="details-container">
-                <h2 class="experience-sub-title">Frontend Development</h2>
-                <div class="article-container">
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>HTML</h3>
-                      <p>Experienced</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>CSS</h3>
-                      <p>Experienced</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>SASS</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>JavaScript</h3>
-                      <p>Experienced</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>TypeScript</h3>
-                      <p>Basic</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>Material UI</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-                </div>
-              </div>
-              <div class="details-container">
-                <h2 class="experience-sub-title">Backend Development</h2>
-                <div class="article-container">
-
-                  <article>
-                  <img 
-                  src="./assets/checkmark.png" 
-                  alt="Experience icon"
-                  class="icon"
-                  />
-                  <div>
-                    <h3>SQL</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>PostgreSQL</h3>
-                      <p>Experienced</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>Node JS</h3>
-                      <p>Experienced</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>Express Js</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>Git</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-
-                  <article>
-                    <img 
-                    src="./assets/checkmark.png" 
-                    alt="Experience icon"
-                    class="icon"
-                    />
-                    <div>
-                      <h3>PHP</h3>
-                      <p>Experienced</p>
-                    </div>
-                  </article>
-             </div>
-              </div>
-            </div>
-              <img 
-          src="./assets/arrow.png" 
-          alt="Arrow icon" 
-          class="icon arrow"
-          onclick="location.href='./#certificates'"
-          />
-         </section>
-    
- <!-- Add this new certificate under your existing certificates in the certificates section -->
-<section id="certificates">
-    <p class="section__text__p1">Check Out My</p>
-    <h1 class="title">Certificates</h1>
-    <div class="certificates-container">
-        
-         <!-- Google Certificate -->
-        <div class="certificate-item">
-            <a href="https://www.coursera.org/account/accomplishments/verify/SJK1BOVD3071" target="_blank">
-                <img src="./assets/google-certificate.jpeg" alt="Google Certificate" class="certificate-img" />
-            </a>
-            <h2 class="experience-sub-title certificate-title">Google CyberSecurity Professional Certificate</h2>
-            <p>Issued by: Coursera</p>
-            <p>Date: Verified September 2024</p>
-            <div class="btn-container">
-                <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="window.open('https://www.coursera.org/account/accomplishments/verify/SJK1BOVD3071')">
-                    View Certificate
-                </button>
-            </div>
-        </div>
-
-        <!-- Certificate 2 -->
-        <div class="certificate-item">
-            <a href="path-to-certificate-2.pdf" target="_blank">
-                <img src="./assets/google-certificate.jpeg" alt="Certificate 2" class="certificate-img" />
-            </a>
-            <h2 class="experience-sub-title certificate-title">Certificate Two</h2>
-            <p>Issued by: Certificate Authority</p>
-            <p>Date: June 2022</p>
-            <div class="btn-container">
-                <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="window.open('path-to-certificate-2.pdf')">
-                    View Certificate
-                </button>
-            </div>
-        </div>
-
-        <!-- Certificate 3 -->
-        <div class="certificate-item">
-            <a href="path-to-certificate-3.pdf" target="_blank">
-                <img src="./assets/google-certificate.jpeg" alt="Certificate 3" class="certificate-img" />
-            </a>
-            <h2 class="experience-sub-title certificate-title">Certificate Three</h2>
-            <p>Issued by: Certificate Authority</p>
-            <p>Date: March 2021</p>
-            <div class="btn-container">
-                <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="window.open('path-to-certificate-3.pdf')">
-                    View Certificate
-                </button>
-            </div>
-        </div>
-
-        <!-- Certificate 4 -->
-        <div class="certificate-item">
-            <a href="path-to-certificate-4.pdf" target="_blank">
-                <img src="./assets/google-certificate.jpeg" alt="Certificate 4" class="certificate-img" />
-            </a>
-            <h2 class="experience-sub-title certificate-title">Certificate Four</h2>
-            <p>Issued by: Certificate Authority</p>
-            <p>Date: August 2023</p>
-            <div class="btn-container">
-                <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="window.open('path-to-certificate-4.pdf')">
-                    View Certificate
-                </button>
-            </div>
-        </div>
-    </div>
-      <img 
-          src="./assets/arrow.png" 
-          alt="Arrow icon" 
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-          />
-</section>
-
- <section id="projects">
-            <p class="section__text__p1">Browse My Recent</p>
-            <h1 class="title">Projects</h1>
-              <div class="experience-details-container">
                 <div class="about-containers">
-               <div class="details-container color-container">
-                <div class="article-container">
-                  <img src="./assets/project-1.png" 
-                  alt="Project 1" 
-                  class="project-img"
-                  />
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/> Frontend Development</p>
+                    </div> 
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelor's Degree<br /> M.Sc. Master's Degree</p>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <div class="btn-container">
-                  <button 
-                  class="btn btn-color-2 project-btn" 
-                  onclick="location.href='http://github.com'"
-                  >
-                    Github
-                    </button>
-
-                    <button 
-                  class="btn btn-color-2 project-btn" 
-                  onclick="location.href='http://github.com'"
-                  >
-                  Live Demo
-                    </button>
+                <div class="text-container">
+                    <p>
+                        As a cybersecurity professional, I excel in rapidly mastering new technologies and processes, driven by my commitment to integrity, confidentiality, and continuous learning. With a passion for protecting sensitive data and ethical hacking, I proactively identify and mitigate risks, aligning my skills with the security goals of organizations to ensure robust defenses and operational trust.
+                    </p>
                 </div>
-               </div>
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/project-2.png" 
-                alt="Project 2" 
-                class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Project Two</h2>
-              <div class="btn-container">
-                <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='http://github.com'"
-                >
-                  Github
-                  </button>
-
-                  <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='http://github.com'"
-                >
-                Live Demo
-                  </button>
-              </div>
-             </div>
-             <div class="details-container color-container">
-              <div class="article-container">
-                <img src="./assets/project-3.png" 
-                alt="Project 3" 
-                class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Project Three</h2>
-              <div class="btn-container">
-                <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='http://github.com'"
-                >
-                  Github
-                  </button>
-
-                  <button 
-                class="btn btn-color-2 project-btn" 
-                onclick="location.href='http://github.com'"
-                >
-                Live Demo
-                  </button>
-              </div>
-             </div>
-             <img 
-             src="./assets/arrow.png" 
-             alt="Arrow icon" 
-             class="icon arrow"
-             onclick="location.href='./#contact'"
-             />
-         </section>
-                    
-         <section id="contact">
-             <p class="section__text__p1">Get in Touch</p>
-             <h1 class="title">Contact Me</h1>
-             <div class="contact-info-upper-container">
-              <div class="contact-info-container">
-                <img 
-                src="./assets/email.png" 
-                alt="Email icon"
-                class="icon contact-icon"
-                />
-                <p><a href="mailto:koechsharon100@gmail.com">koechsharon100@gmail.com</a></p>
-               </div>
-               <div class="contact-info-container">
-                <img 
-                src="./assets/linkedin.png" 
-                alt="LinkedIn icon"
-                class="icon contact-icon"
-                />
-                <p><a href="https://www.linkedin.com/in/sharon-koech-bab537218/">LinkedIn</a></p>
-               </div>
-             </div>
-         </section>
-         <footer>
-          <nav>
-            <div class="nav-links-container">
-              <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                  <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
             </div>
-          </nav>
-          <p>Copyright &#169; 2024 Sharon Koech. All rights Reserved.</p>
-         </footer>
-      <script src="script.js"></script>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#certificates'" />
+    </section>
+
+    <section id="certificates">
+        <p class="section__text__p1">Check Out My</p>
+        <h1 class="title">Certificates</h1>
+        <div class="certificates-container">
+            <!-- Google Certificate -->
+            <div class="certificate-item">
+                <a href="https://www.coursera.org/account/accomplishments/verify/SJK1BOVD3071" target="_blank">
+                    <img src="./assets/google-certificate.jpeg" alt="Google Certificate" class="certificate-img" />
+                </a>
+                <h2 class="experience-sub-title certificate-title">Google CyberSecurity Professional Certificate</h2>
+                <p>Issued by: Coursera</p>
+                <p>Date Issued: August 2023</p>
+            </div>
+            <!-- Udacity Certificate -->
+            <div class="certificate-item">
+                <a href="https://graduation.udacity.com/confirm/75cc00eb-5f2d-4fc1-84de-9e7cb6479d68" target="_blank">
+                    <img src="./assets/udacity-certificate.jpeg" alt="Udacity Certificate" class="certificate-img" />
+                </a>
+                <h2 class="experience-sub-title certificate-title">Intro to Cyber Security</h2>
+                <p>Issued by: Udacity</p>
+                <p>Date Issued: May 2023</p>
+            </div>
+            <!-- Coursera Certificate -->
+            <div class="certificate-item">
+                <a href="https://www.coursera.org/account/accomplishments/verify/TB69CRP96Z88" target="_blank">
+                    <img src="./assets/coursera-certificate.jpeg" alt="Coursera Certificate" class="certificate-img" />
+                </a>
+                <h2 class="experience-sub-title certificate-title">Introduction to Cyber Attacks</h2>
+                <p>Issued by: Coursera</p>
+                <p>Date Issued: March 2023</p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-container">
+            <div class="project-item">
+                <img src="./assets/project1.png" alt="Project 1" class="project-img"/>
+                <h2 class="project-title">Project 1 Title</h2>
+                <p class="project-description">Short description of project 1.</p>
+                <button class="btn" onclick="location.href='https://linktoproject1.com'" target="_blank">View Project</button>
+            </div>
+            <div class="project-item">
+                <img src="./assets/project2.png" alt="Project 2" class="project-img"/>
+                <h2 class="project-title">Project 2 Title</h2>
+                <p class="project-description">Short description of project 2.</p>
+                <button class="btn" onclick="location.href='https://linktoproject2.com'" target="_blank">View Project</button>
+            </div>
+            <div class="project-item">
+                <img src="./assets/project3.png" alt="Project 3" class="project-img"/>
+                <h2 class="project-title">Project 3 Title</h2>
+                <p class="project-description">Short description of project 3.</p>
+                <button class="btn" onclick="location.href='https://linktoproject3.com'" target="_blank">View Project</button>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <form action="#" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#profile'" />
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sharon Koech. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menuLinks = document.querySelector('.menu-links');
+            menuLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
