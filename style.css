@@ -205,6 +205,12 @@ section {
 #about {
     position: relative;
 }
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
 
 .about-containers {
     gap: 2rem;
