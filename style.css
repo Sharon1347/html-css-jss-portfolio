@@ -222,7 +222,10 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
 
 .arrow {
