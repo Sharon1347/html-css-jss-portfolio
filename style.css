@@ -221,11 +221,8 @@ section {
     display: flex;
 }
 
-.section__pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+.about-pic{
+    border-radius: 2rem;
 }
 
 .arrow {
