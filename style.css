@@ -204,38 +204,63 @@ section {
 /* ABOUT SECTION */
 #about {
     position: relative;
+    padding: 2rem;
 }
-.section__pic-container {
+
+/* Align picture and details side by side */
+.about-section {
     display: flex;
-    height: 400px;
-    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap; /* This helps for responsiveness */
+}
+
+.section__pic-container {
+    flex: 1; /* Ensure picture takes up equal space */
+    max-width: 300px; /* Make picture smaller */
     margin: auto 0;
 }
 
-.about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+.about-pic {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 1rem; /* Smaller border radius for a cleaner look */
 }
 
 .about-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-containers, .about-details-container {
+    flex: 2;
     display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.about-pic{
-    border-radius: 2rem;
+.about-containers {
+    display: flex;
+    justify-content: space-between; /* Align the two sections side by side */
+    gap: 2rem;
 }
 
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
+.details-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stack picture and text vertically on smaller screens */
+    }
+}
+
 
 /* DETAILS CONTAINER */
 .details-container {
