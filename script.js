@@ -30,6 +30,6 @@ function toggleMenu() {
         });
 // JavaScript for resume download functionality
     function downloadResume() {
-        window.location.href = './assets/resume.pdf';  // Path to your resume
+       window.open('./assets/resume.pdf', '_blank'); // Open the resume in a new tab
     }
 
