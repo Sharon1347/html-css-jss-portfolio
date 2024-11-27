@@ -28,4 +28,8 @@ function toggleMenu() {
             // Initial check
             checkCertificates();
         });
+// JavaScript for resume download functionality
+    function downloadResume() {
+        window.location.href = './assets/resume.pdf';  // Path to your resume
+    }
 
