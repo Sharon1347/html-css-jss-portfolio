@@ -230,8 +230,12 @@ section {
 }
 
 .about-pic {
-    border-radius: 4rem;
-     justify-content: center;
+    display: flex;
+    height: 350px;
+    width: 600px; /* Wider frame for harmony */
+    margin: auto;
+    border-radius: 50%; /* For an oval effect */
+    overflow: hidden;
 }
 
 .arrow {
