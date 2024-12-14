@@ -234,7 +234,7 @@ section {
     height: 350px;
     width: 600px; /* Wider frame for harmony */
     margin: auto;
-    border-radius: 50%; /* For an oval effect */
+    border-radius: 70%; /* For an oval effect */
     overflow: hidden;
 }
 
