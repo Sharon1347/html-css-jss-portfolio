@@ -211,10 +211,7 @@ section {
 
 /* ABOUT SECTION */
 #about {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    position: relative;
 }
 
 .about-containers {
@@ -261,10 +258,7 @@ section {
 /* EXPERIENCE SECTION */
 #experience {
     
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+  position: relative;
 }
 
 .experience-sub-title {
