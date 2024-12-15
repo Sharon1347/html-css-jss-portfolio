@@ -237,6 +237,11 @@ section {
     border-radius: 50%; /* For an oval effect */
     overflow: hidden;
 }
+.about-pic-container img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Ensure full coverage */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    object-position: center; /* Centers the image */
 
 .arrow {
     position: absolute;
