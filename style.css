@@ -225,27 +225,14 @@ section {
     flex-direction: column;
 }
 
-.about-containers, .about-details-container {
+.about-containers, 
+.about-details-container {
     display: flex;
 }
 
 .about-pic {
-    display: flex;
-    height: 350px;
-    width: 600px; /* Wider frame for harmony */
-    margin: auto;
-    border-radius: 20px; /* Rounded corners for a rectangle */
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for a polished look */
+    border-radius: 2rem; 
 }
-
-.about-pic-container img {
-    width: 100%; /* Make the image fill the container */
-    height: 100%; /* Ensure full coverage */
-    object-fit: cover; /* Ensures the image fills the rectangle without distortion */
-    object-position: center; /* Centers the image */
-}
-
 
 .arrow {
     position: absolute;
@@ -260,8 +247,18 @@ section {
     flex: 1;
     background: #e0e0e0; /* Light gray container background */
     border-radius: 2rem;
-    border: #ccc 0.1rem solid; /* Light gray border */
+    border: rgb(53, 53, 53) 0.1 rem solid;
+    border-color: rgb(163, 163, 163);
     text-align: center;
+}
+ .section-container {
+     gap: 4rem;
+     height: 80%;
+ }
+.sectiion_pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
