@@ -235,15 +235,10 @@ section {
 .about-containers, 
 .about-details-container {
     display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
 }
 
 .about-pic {
    border-radius: 2rem; 
-    width: 100%; /* Ensure it scales with container */
-    max-width: 400px; /* Set max size for responsiveness */
-    height: auto; /* Maintain aspect ratio */
 }
 
 .arrow {
@@ -252,22 +247,18 @@ section {
     bottom: 2.5rem;
 }
 
-
 /* DETAILS CONTAINER */
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: #e0e0e0; /* Light gray container background */
+    background: white; 
     border-radius: 2rem;
-   border: 0.1rem solid rgb(53, 53, 53);
+   border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
  .section-container {
-    display: flex;
     gap: 4rem; /* Spacing between elements */
-    align-items: center;
-    justify-content: space-between;
     height: 80%;
  }
 .section_pic-container{
