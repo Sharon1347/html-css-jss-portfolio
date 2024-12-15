@@ -147,6 +147,14 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a polished look */
 }
 
+.section__pic-container img {
+    width: 100%; /* Ensures the image covers the width of the container */
+    height: 100%; /* Ensures the image covers the height of the container */
+    object-fit: cover; /* Maintains the aspect ratio while filling the circle */
+    object-position: center; /* Centers the focal point of the image */
+}
+
+
 .section__text {
     align-self: center;
     text-align: center;
