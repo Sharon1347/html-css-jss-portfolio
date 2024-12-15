@@ -126,8 +126,7 @@ section {
 
 .section-container {
     display: flex;
-    gap: 4rem;
-    height: 80%;
+    
 }
 
 /* PROFILE SECTION */
@@ -143,14 +142,6 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    border-radius: 50%; /* Makes the container circular */
-    overflow: hidden; /* Ensures the image stays inside the circle */
-}
-.section__pic-container img {
-    width: 100%; /* Make the image fill the container */
-    height: 100%; /* Ensure full coverage */
-    object-fit: cover; /* Ensures the image fills the circle without distortion */
-    object-position: center; /* Centers the image */
 }
 
 .section__text {
@@ -160,7 +151,6 @@ section {
 
 .section__text p {
     font-weight: 600;
-    color: #666; /* Medium gray for profile text */
 }
 
 .section__text__p1 {
@@ -169,7 +159,7 @@ section {
 
 .section__text__p2 {
     font-size: 1.75rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .title {
@@ -178,6 +168,12 @@ section {
     color: #333; /* Dark neutral for section titles */
 }
 
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
 /* ICONS */
 .icon {
     cursor: pointer;
