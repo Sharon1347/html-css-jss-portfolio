@@ -139,8 +139,8 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 50vw;
+    width: 50vw;
     margin: auto 0;
     border-radius: 50%; /* Makes the container circular */
     overflow: hidden; /* Ensures the image stays within the circular frame */
