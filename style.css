@@ -138,22 +138,22 @@ section {
 }
 
 .section__pic-container {
-    display: flex;
-    height: 50vw;
-    width: 50vw;
-    margin: auto 0;
-    border-radius: 50%; /* Makes the container circular */
-    overflow: hidden; /* Ensures the image stays within the circular frame */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a polished look */
+  display: flex;
+  justify-content: center; /* Centers the container horizontally */
+  align-items: center; /* Centers the container vertically */
+  height: 300px; /* You can adjust this value */
+  width: 300px; /* You can adjust this value */
+  margin: auto;
+  border-radius: 50%; /* Makes the container circular */
+  overflow: hidden; /* Ensures the image stays within the circular frame */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a polished look */
 }
 
 .section__pic-container img {
-    width: 100%; /* Ensures the image covers the width of the container */
-    height: 100%; /* Ensures the image covers the height of the container */
-    object-fit: cover; /* Maintains the aspect ratio while filling the circle */
-    object-position: center; /* Centers the focal point of the image */
+  width: 100%; /* Ensures the image fills the container */
+  height: 100%; /* Ensures the image fills the container */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the container */
 }
-
 
 .section__text {
     align-self: center;
